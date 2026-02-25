@@ -59,11 +59,12 @@ A curated list of **audio-visual multimodal large language models (MLLMs)**, **b
 
 <!-- Tags index (optional but recommended for clickable badges) -->
 ### Tags
-- <a id="tag-hallucination"></a>**hallucination**
-- <a id="tag-temporal-reasoning"></a>**temporal-reasoning**
-- <a id="tag-speech"></a>**speech**
-- <a id="tag-music"></a>**music**
-- <a id="tag-general-sound"></a>**general-sound**
+- <a id="tag-hallucination"></a>**hallucination:** Contain questions that test the hallucination of the MLLMs.
+- <a id="tag-coarse-perception"></a>**coarse perception:** Contain questions that can be answered by the global cross-modality information between audio and visual.
+- <a id="tag-finegrained-perception"></a>**finegrained perception:** Contain questions that can be answered by grounding a specific temporal segment before reasoning over that segment.
+- <a id="tag-speech"></a>**speech:** Contain questions asking about human speech or dialouge.
+- <a id="tag-music"></a>**music:** Contain questions asking about music.
+- <a id="tag-general-sound"></a>**general-sound:** Contain questions asking about any type of sound.
 
 <!-- Badge helpers (use anywhere) -->
 <!-- Example: [![hallucination](https://img.shields.io/badge/hallucination-red)](#tag-hallucination) -->
