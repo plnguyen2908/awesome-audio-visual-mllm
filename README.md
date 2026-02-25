@@ -55,23 +55,38 @@ A curated list of **audio-visual multimodal large language models (MLLMs)**, **b
 
 ### MLLM-eval era (>= 2024)
 
-> Benchmarks explicitly designed to evaluate modern multimodal LLMs (MLLMs), often with broader task coverage and richer analysis.
+> Benchmarks explicitly designed to evaluate modern multimodal LLMs (MLLMs) QA capability, often with broader task coverage and richer analysis.
 
-| Paper | Benchmark Name | Authors | Venue | Modalities | Code | Task | Data |
+<!-- Tags index (optional but recommended for clickable badges) -->
+### Tags
+- <a id="tag-hallucination"></a>**hallucination**
+- <a id="tag-temporal-reasoning"></a>**temporal-reasoning**
+- <a id="tag-speech"></a>**speech**
+- <a id="tag-music"></a>**music**
+- <a id="tag-general-sound"></a>**general-sound**
+
+<!-- Badge helpers (use anywhere) -->
+<!-- Example: [![hallucination](https://img.shields.io/badge/hallucination-red)](#tag-hallucination) -->
+
+| Paper | Benchmark Name | Authors | Venue | Modalities | Code | Data | Tags |
 |---|---|---|---|---|---|---|---|
-| [**WorldSense: Evaluating Real-world Omnimodal Understanding for Multimodal LLMs**](https://arxiv.org/abs/2502.04326) | WorldSense | Hong, J.; Yan, S.; Cai, J.; Jiang, X.; Hu, Y.; Xie, W. | ICLR 2026 | Video + Audio + Text | [Code](https://github.com/JaaackHongggg/WorldSense) | Omnimodal understanding & reasoning (MCQ QA) | - |
-| [**Daily-Omni: Towards Audio-Visual Reasoning with Multimodal Language Models**](https://arxiv.org/abs/2505.17862) | Daily-Omni | Zhou, Z. et al. | arXiv | Video + Audio | [Code](https://github.com/lliar-liar/daily-omni) | Audio-visual reasoning (daily-life QA) | - |
-| [**AVUT (Audio-centric Video Understanding Test)**](https://aclanthology.org/volumes/2025.emnlp-main/) | AVUT | TBD (EMNLP 2025 paper metadata) | EMNLP 2025 | Video + Audio | - | Audio-centric video understanding | - |
-| [**AV-Odyssey**](https://arxiv.org/) | AV-Odyssey | TBD | arXiv | Video + Audio | - | Audio-visual perception & reasoning | - |
-| [**OmniVideoBench: Towards Audio-Visual Understanding Evaluation for Omni MLLMs**](https://arxiv.org/abs/2510.10689) | OmniVideoBench | Li, C. et al. | ICLR 2026 | Video + Audio | - | Synergistic audio-visual understanding & reasoning | - |
-| [**See, Hear, and Understand: Benchmarking Audiovisual Human Speech Understanding in Multimodal Large Language Models**](https://arxiv.org/abs/2512.02231) | AV-SpeakerBench | Nguyen, L. T. P. et al. | CVPR 2026 Findings | Video + Audio (Speech) | [Code](https://github.com/plnguyen2908/AV-SpeakerBench) | Audiovisual human speech understanding | [Data](https://huggingface.co/datasets/plnguyen2908/AV-SpeakerBench) |
-| [**OmniEval: A Benchmark for Evaluating Omni-modal Models with Visual, Auditory and Textual Inputs**](https://arxiv.org/abs/2506.20960) | OmniEval | Zhang, Y. et al. | arXiv | Vision + Audio + Text | - | Omni-modal evaluation (tri-modal understanding) | - |
-| [**XModBench: Benchmarking Cross-Modal Capabilities and Consistency in Omni-Language Models**](https://arxiv.org/abs/2510.15148) | XModBench | Wang, X.; Liu, J.; Huang, C.; Yu, X.; Wang, Z.; Sun, X.; Wu, J.; Yuille, A.; Barsoum, E.; Liu, Z. | ICLR 2026 | Text + Vision + Audio | [Code](https://github.com/XingruiWang/XModBench) | Cross-modal capability & consistency | [Data](https://huggingface.co/datasets/RyanWW/XModBench) |
-| [**FutureOmni: Evaluating Future Forecasting from Omni-Modal Context for Multimodal LLMs**](https://arxiv.org/abs/2601.13836) | FutureOmni | Chen, Q.; Fu, J.; Li, C.; Ng, S.-K.; Qiu, X. | arXiv | Video + Audio | [Code](https://github.com/OpenMOSS/FutureOmni) | Omni-modal future forecasting | [Data](https://huggingface.co/datasets/OpenMOSS-Team/FutureOmni) |
-| [**AVMeme Exam: A Multimodal Multilingual Multicultural Benchmark for LLMs' Contextual and Cultural Knowledge and Thinking**](https://arxiv.org/abs/2601.17645) | AVMeme Exam | Jiang, X. et al. | arXiv | Video + Audio | - | Cultural/contextual reasoning on audio-visual memes | [Data](https://huggingface.co/datasets/naplab/AVMeme-Exam) |
-| [**A Comprehensive Benchmark for Evaluating Multi-Talker Audio-Visual Dialogue Generation**](https://arxiv.org/abs/2602.00607) | MTAVG-Bench | Zhou, Y. H. et al. | arXiv | Video + Audio | - | Multi-talker audio-visual dialogue generation evaluation | - |
-| [**Towards The Future of Universal Omni-Language Models**](https://arxiv.org/abs/2409.15272) | OmniBench | Lin, J. et al. | NeurIPS 2025 (Datasets & Benchmarks) | Image + Audio + Text | [Code](https://github.com/multimodal-art-projection/OmniBench) | Tri-modal reasoning benchmark | - |
----
+| [**The Curse of Multi-Modalities: Evaluating Hallucinations of Large Multimodal Models across Language, Visual, and Audio**](https://arxiv.org/abs/2410.12787) | CMM | Leng, S.; Xing, Y.; Cheng, Z.; Zhou, Y.; Zhang, H.; Li, X.; Zhao, D.; Lu, S.; Miao, C.; Bing, L. | arXiv 2024 | Language + Visual + Audio | [Code](https://github.com/DAMO-NLP-SG/CMM) | [Data](https://huggingface.co/datasets/DAMO-NLP-SG/CMM) | [![hallucination](https://img.shields.io/badge/hallucination-red)](#tag-hallucination) [![general-sound](https://img.shields.io/badge/general--sound-708090)](#tag-general-sound) |
+| [**AVHBench: A Cross-Modal Hallucination Benchmark for Audio-Visual Large Language Models**](https://arxiv.org/abs/2410.18325) | AVHBench | Kim, S.-B.; Oh, H.-B.; Lee, J.; Senocak, A.; Chung, J. S.; Oh, T.-H. | ICLR 2025 | Video + Audio | [Code](https://github.com/kaist-ami/AVHBench) | [Data](https://github.com/kaist-ami/AVHBench#download-the-avhbench-dataset) | [![hallucination](https://img.shields.io/badge/hallucination-red)](#tag-hallucination) [![temporal-reasoning](https://img.shields.io/badge/temporal--reasoning-7b2cbf)](#tag-temporal-reasoning) [![general-sound](https://img.shields.io/badge/general--sound-708090)](#tag-general-sound) |
+| [**Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-Modal LLMs in Video Analysis**](https://arxiv.org/pdf/2405.21075) | Video-MME | Fu, C.; Dai, Y.; Luo, Y.; Li, L.; Ren, S.; Zhang, R.; Wang, Z.; Zhou, C.; Shen, Y.; Zhang, M.; Chen, P. | CVPR 2025 | Video + Audio/Subtitle  | [Code](https://github.com/MME-Benchmarks/Video-MME) | [Data](https://huggingface.co/datasets/lmms-lab/Video-MME/tree/main) | [![temporal-reasoning](https://img.shields.io/badge/temporal--reasoning-7b2cbf)](#tag-temporal-reasoning) [![general-sound](https://img.shields.io/badge/general--sound-708090)](#tag-general-sound) |
+| [**VGGSounder: Audio-Visual Evaluations for Foundation Models**](https://arxiv.org/abs/2508.08237) | VGGSounder | Zverev, D.; Wiedemer, T.; Prabhu, A.; Bethge, M.; Brendel, W.; Koepke, A. S. | ICCV 2025 | Video + Audio | [Code](https://github.com/Bizilizi/VGGSounder) | [Data](https://github.com/Bizilizi/VGGSounder) | [![general-sound](https://img.shields.io/badge/general--sound-708090)](#tag-general-sound) |
+| [**AVTrustBench: Assessing and Enhancing Reliability and Robustness in Audio-Visual LLMs**](https://arxiv.org/abs/2501.02135) | AVTrustBench | Chowdhury, S.; Nag, S.; Dasgupta, S.; Wang, Y.; Elhoseiny, M.; Gao, R.; Manocha, D. | ICCV 2025 | Video + Audio  | [Code](https://github.com/schowdhury671/avtrustbench-) | [Data](https://github.com/schowdhury671/avtrustbench-/blob/main/data.md) | [![temporal-reasoning](https://img.shields.io/badge/temporal--reasoning-7b2cbf)](#tag-temporal-reasoning) [![general-sound](https://img.shields.io/badge/general--sound-708090)](#tag-general-sound) |
+| [**OmniBench: Towards The Future of Universal Omni-Language Models**](https://arxiv.org/abs/2409.15272) | OmniBench | Li, Y., Ma, Y., Zhang, G., Yuan, R., Zhu, K., Guo, H., Liang, Y., Liu, J., Wang, Z., Yang, J. and Wu, S. | NeurIPS 2025 (Datasets & Benchmarks) | Image + Audio  | [Code](https://github.com/multimodal-art-projection/OmniBench) | [Data](https://huggingface.co/datasets/m-a-p/OmniBench) | [![general-sound](https://img.shields.io/badge/general--sound-708090)](#tag-general-sound) |
+| [**Audio-centric Video Understanding Benchmark without Text Shortcut**](https://aclanthology.org/volumes/2025.emnlp-main/) | AVUT | Yang, Y., Zhuang, J., Sun, G., Tang, C., Li, Y., Li, P., Jiang, Y., Li, W., Ma, Z. and Zhang, C. | EMNLP 2025 | Video + Audio | [Code](https://github.com/lark-png/AVUT) | [Data](https://huggingface.co/datasets/tsinghua-ee/AVUTBenchmark) | [![temporal-reasoning](https://img.shields.io/badge/temporal--reasoning-7b2cbf)](#tag-temporal-reasoning) [![general-sound](https://img.shields.io/badge/general--sound-708090)](#tag-general-sound) |
+| [**WorldSense: Evaluating Real-world Omnimodal Understanding for Multimodal LLMs**](https://arxiv.org/abs/2502.04326) | WorldSense | Hong, J.; Yan, S.; Cai, J.; Jiang, X.; Hu, Y.; Xie, W. | ICLR 2026 | Video + Audio  | [Code](https://github.com/JaaackHongggg/WorldSense) | [Data](https://huggingface.co/datasets/honglyhly/WorldSense) | [![temporal-reasoning](https://img.shields.io/badge/temporal--reasoning-7b2cbf)](#tag-temporal-reasoning) [![general-sound](https://img.shields.io/badge/general--sound-708090)](#tag-general-sound) |
+| [**Daily-Omni: Towards Audio-Visual Reasoning with Multimodal Language Models**](https://arxiv.org/abs/2505.17862) | Daily-Omni | Zhou, Z. et al. | arXiv 2025 | Video + Audio | [Code](https://github.com/lliar-liar/daily-omni) | [Data](https://huggingface.co/datasets/liarliar/Daily-Omni) | [![temporal-reasoning](https://img.shields.io/badge/temporal--reasoning-7b2cbf)](#tag-temporal-reasoning) [![general-sound](https://img.shields.io/badge/general--sound-708090)](#tag-general-sound) |
+| [**AV-Odyssey Bench: Can Your Multimodal LLMs Really Understand Audio-Visual Information?**](https://arxiv.org/abs/2412.02611) | AV-Odyssey | Gong, K., Feng, K., Li, B., Wang, Y., Cheng, M., Yang, S., Han, J., Wang, B., Bai, Y., Yang, Z. and Yue, X. | arXiv 2025 | Video + Audio | [Code](https://github.com/AV-Odyssey/AV-Odyssey) | [Data](https://huggingface.co/datasets/AV-Odyssey/AV_Odyssey_Bench) | [![temporal-reasoning](https://img.shields.io/badge/temporal--reasoning-7b2cbf)](#tag-temporal-reasoning) [![general-sound](https://img.shields.io/badge/general--sound-708090)](#tag-general-sound) |
+| [**OmniVideoBench: Towards Audio-Visual Understanding Evaluation for Omni MLLMs**](https://arxiv.org/abs/2510.10689) | OmniVideoBench | Li, C., Chen, Y., Ji, Y., Xu, J., Cui, Z., Li, S., Zhang, Y., Tang, J., Song, Z., Zhang, D. and He, Y. | ICLR 2026 | Video + Audio | [Code](https://github.com/NJU-LINK/OmniVideoBench) | [Data](https://huggingface.co/datasets/NJU-LINK/OmniVideoBench) | [![temporal-reasoning](https://img.shields.io/badge/temporal--reasoning-7b2cbf)](#tag-temporal-reasoning) [![general-sound](https://img.shields.io/badge/general--sound-708090)](#tag-general-sound) |
+| [**OmniEval: A Benchmark for Evaluating Omni-modal Models with Visual, Auditory and Textual Inputs**](https://arxiv.org/abs/2506.20960) | OmniEval | Zhang, Y., Luo, Z., Yan, Q., He, W., Jiang, B., Chen, X. and Han, K. | arXiv 2025 | Vision + Audio  | - | - | [![general-sound](https://img.shields.io/badge/general--sound-708090)](#tag-general-sound) |
+| [**XModBench: Benchmarking Cross-Modal Capabilities and Consistency in Omni-Language Models**](https://arxiv.org/abs/2510.15148) | XModBench | Wang, X.; Liu, J.; Huang, C.; Yu, X.; Wang, Z.; Sun, X.; Wu, J.; Yuille, A.; Barsoum, E.; Liu, Z. | ICLR 2026 | Vision + Audio | [Code](https://github.com/XingruiWang/XModBench) | [Data](https://huggingface.co/datasets/RyanWW/XModBench) | [![general-sound](https://img.shields.io/badge/general--sound-708090)](#tag-general-sound) |
+| [**See, Hear, and Understand: Benchmarking Audiovisual Human Speech Understanding in Multimodal Large Language Models**](https://arxiv.org/abs/2512.02231) | AV-SpeakerBench | Nguyen, L.T.P., Yu, Z., Hang, S.L.Y., An, S., Lee, J., Ban, Y., Chung, S., Nguyen, T.H., Maeng, J., Lee, S. and Lee, Y.J. | CVPR 2026 Findings | Video + Audio (Speech) | [Code](https://github.com/plnguyen2908/AV-SpeakerBench) | [Data](https://huggingface.co/datasets/plnguyen2908/AV-SpeakerBench) | [![temporal-reasoning](https://img.shields.io/badge/temporal--reasoning-7b2cbf)](#tag-temporal-reasoning) [![speech](https://img.shields.io/badge/speech-2a9d8f)](#tag-speech) |
+| [**FutureOmni: Evaluating Future Forecasting from Omni-Modal Context for Multimodal LLMs**](https://arxiv.org/abs/2601.13836) | FutureOmni | Chen, Q.; Fu, J.; Li, C.; Ng, S.-K.; Qiu, X. | arXiv 2026 | Video + Audio | [Code](https://github.com/OpenMOSS/FutureOmni) | [Data](https://huggingface.co/datasets/OpenMOSS-Team/FutureOmni) | [![temporal-reasoning](https://img.shields.io/badge/temporal--reasoning-7b2cbf)](#tag-temporal-reasoning) [![general-sound](https://img.shields.io/badge/general--sound-708090)](#tag-general-sound) |
+| [**AVMeme Exam: A Multimodal Multilingual Multicultural Benchmark for LLMs' Contextual and Cultural Knowledge and Thinking**](https://arxiv.org/abs/2601.17645) | AVMeme Exam | Jiang, X. et al. | arXiv 2026 | Video + Audio | [Code](https://avmemeexam.github.io/public/) | [Data](https://huggingface.co/datasets/naplab/AVMeme-Exam) | [![general-sound](https://img.shields.io/badge/general--sound-708090)](#tag-general-sound) |
+| [**A Comprehensive Benchmark for Evaluating Multi-Talker Audio-Visual Dialogue Generation**](https://arxiv.org/abs/2602.00607) | MTAVG-Bench | Zhou, Y.H., Li, H., Lin, R., Huang, H., Zhou, J., Yuan, C., Lan, T., Zhou, Z., Li, Y., Xu, J. and Liao, J. | arXiv 2026 | Video + Audio | - | - | [![temporal-reasoning](https://img.shields.io/badge/temporal--reasoning-7b2cbf)](#tag-temporal-reasoning) [![speech](https://img.shields.io/badge/speech-2a9d8f)](#tag-speech) |
 
 ## Models
 
@@ -97,39 +112,6 @@ A curated list of **audio-visual multimodal large language models (MLLMs)**, **b
 |---|---|:---:|:---:|:---:|:---:|---|---|
 | `TBD` | `TBD` |  |  |  |  | `TBD` | Add official documentation links only |
 
----
-
-## Datasets (optional split)
-
-If this repo grows, you can split datasets into a separate section/file with tags:
-
-- **AVQA / reasoning**
-- **Audio grounding**
-- **Long-video understanding**
-- **Instruction tuning**
-- **Real-time multimodal interaction**
-- **Multilingual AV evaluation**
-
-Starter entries:
-- PACS
-- MUSIC-AVQA
-- AVQA
-- Video-MME (benchmark/eval set)
-
----
-
-## Evaluation dimensions (suggested)
-
-To make this repo more useful, consider tagging each benchmark/model by evaluation dimensions:
-
-- **Audio grounding** (sound-source localization/reasoning)
-- **Cross-modal consistency** (audio ↔ video alignment)
-- **Temporal reasoning** (event order, duration, causality)
-- **Long-context video understanding**
-- **Speech content understanding** (ASR robustness, overlap, noise)
-- **Multilingual AV understanding**
-- **Real-time interaction latency**
-- **Robustness** (noise, compression, missing modality, subtitle mismatch)
 
 ---
 
@@ -143,27 +125,11 @@ Please include:
 - **Venue + year**
 - **Official code link**
 - **Official data / project page**
-- A short note explaining why it is relevant to **audio-visual MLLM**
-
-### Benchmark entry checklist
-- [ ] Involves **audio + visual reasoning** OR evaluates **MLLMs on video** with audio/subtitles
-- [ ] Added to the correct era (`<2024` vs `>=2024`)
-- [ ] Includes **Code** and **Data** links
-- [ ] Uses official sources (repo/project page) whenever possible
+- A short note explaining why it is relevant to **audio-visual QA**
 
 ---
 
 ## License
 
-- This list/repository content: **MIT** (recommended)
+- This list/repository content: **MIT** 
 - Individual papers, datasets, and models remain under their own licenses.
-
----
-
-## TODO (recommended next steps)
-
-- [ ] Add official **code/data links** for the current benchmark entries
-- [ ] Expand **post-2024 MLLM benchmarks**
-- [ ] Add **taxonomy tags** (e.g., `#avqa`, `#long-video`, `#audio-grounding`)
-- [ ] Add **model comparison schema** (streaming, latency, open weights, license)
-- [ ] Add **awesome-list quality checks** (link checker, PR template)
