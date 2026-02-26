@@ -107,11 +107,11 @@ A curated list of **audio-visual multimodal large language models (MLLMs)**, **b
 | video-SALMONN | Tsinghua + ByteDance | 2024 | ✅ | ✅ (Video) | ✅ | ❌ | https://github.com/bytedance/SALMONN/ | https://arxiv.org/abs/2406.15704 | AVQA, MUSIC-AVQA, AVSD |
 | AnyGPT | OpenMOSS / AnyGPT authors | 2024 | ✅ *(speech/music)* | ✅ (Images) | ✅ | ✅ *(any-to-any, incl. speech)* | https://github.com/OpenMOSS/AnyGPT  | https://huggingface.co/papers/2402.12226  | N/A |
 | VITA-1.5 | VITA-MLLM | 2025 | ✅ | ✅ (Image+Video) | ✅ | ✅ | https://github.com/VITA-MLLM/VITA | https://huggingface.co/VITA-MLLM/VITA-1.5  | Video-MME |
+| Phi-4 Multimodal Instruct | Microsoft | 2025 | ✅ | ✅ (Image + Video) | ✅ | ❌ | https://huggingface.co/microsoft/Phi-4-multimodal-instruct | https://huggingface.co/microsoft/Phi-4-multimodal-instruct  | Video-MME |
 |OmniVinci|NVIDIA| 2025|✅ | ✅ (Image+Video) | ✅ | ✅|https://github.com/NVlabs/OmniVinci|https://huggingface.co/nvidia/omnivinci| DailyOmni, Worldsense, Video-MME|
 | video-SALMONN 2 | Tsinghua + ByteDance | 2025 | ✅ | ✅ (Video) | ✅ | ❌ | https://github.com/bytedance/video-SALMONN-2 | https://huggingface.co/tsinghua-ee/video-SALMONN-2 | Video-MME, AVUT, Worldsense, DailyOmni |
 | Qwen2.5-Omni | Qwen (Alibaba Cloud) | 2025 | ✅ | ✅ (Image+Video) | ✅ | ✅ | https://github.com/QwenLM/Qwen2.5-Omni  | https://huggingface.co/Qwen/Qwen2.5-Omni-7B  | OmniBench, Video-MME|
 | Qwen3-Omni | Qwen (Alibaba Cloud) | 2025 | ✅ | ✅ (Image+Video) | ✅ | ✅ | https://github.com/QwenLM/Qwen3-Omni | https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Thinking  | Worldsense, Daily-Omni, Video-MME |
-| Phi-4 Multimodal Instruct | Microsoft | 2025 | ✅ | ✅ (Image + Video) | ✅ | ❌ | https://huggingface.co/microsoft/Phi-4-multimodal-instruct | https://huggingface.co/microsoft/Phi-4-multimodal-instruct  | Video-MME |
 | D-ORCA | Tsinghua + Tencent | 2026 | ✅ | ✅ (Video) | ✅ | ❌ | https://github.com/WeChatCV/D-ORCA/ | https://huggingface.co/tsinghua-ee/D-ORCA-8B-0210 | Video-MME, Worldsense, AVUT, DailyOmni, AV-SpeakerBench |
 
 
