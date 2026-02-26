@@ -126,9 +126,23 @@ A curated list of **audio-visual multimodal large language models (MLLMs)**, **b
 
 ### Closed-source / API-based
 
-| Model | Provider | Audio In | Video/Image In | Text Out | Speech Out | API / Docs | Notes |
-|---|---|:---:|:---:|:---:|:---:|---|---|
-| `TBD` | `TBD` |  |  |  |  | `TBD` | Add official documentation links only |
+| Model (API name) | Provider | Audio In | Video/Image In | Text Out | Speech Out |
+|---|---|:---:|:---:|:---:|:---:|
+| `gpt-4o` | OpenAI | ❌ | ✅ (Image) | ✅ | ❌ |
+| `gpt-4o-mini` | OpenAI | ❌ | ✅ (Image) | ✅ | ❌ |
+| `gpt-4.1` | OpenAI | ❌ | ✅ (Image) | ✅ | ❌ |
+| `gpt-4.1-mini` | OpenAI | ❌ | ✅ (Image) | ✅ | ❌ |
+| `gpt-4.1-nano` | OpenAI | ❌ | ✅ (Image) | ✅ | ❌ |
+| `gpt-audio-1.5` | OpenAI | ✅ | ❌ | ✅ | ✅ |
+| `gpt-realtime-1.5` | OpenAI | ✅ | ✅ (Image) | ✅ | ✅ |
+| `gpt-4o-audio-preview` | OpenAI | ✅ | ❌ | ✅ | ✅ |
+| `gpt-4o-realtime-preview` | OpenAI | ✅ | ❌ | ✅ | ✅ |
+| `gemini-2.5-pro` | Google (Gemini API) | ✅ | ✅ (Image+Video) | ✅ | ❌ |
+| `gemini-2.5-flash` | Google (Gemini API) | ✅ | ✅ (Image+Video) | ✅ | ❌ |
+| `gemini-2.5-flash-lite` | Google (Gemini API) | ✅ | ✅ (Image+Video) | ✅ | ❌ |
+| `gemini-3.1-pro-preview` | Google (Gemini API) | ✅ | ✅ (Image+Video) | ✅ | ❌ |
+| `gemini-3-flash-preview` | Google (Gemini API) | ✅ | ✅ (Image+Video) | ✅ | ❌ |
+| `gemini-2.5-flash-native-audio-preview-12-2025` | Google (Gemini Live API) | ✅ | ✅ (Video) | ✅ | ✅ |
 
 
 ---
