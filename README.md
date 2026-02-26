@@ -96,9 +96,9 @@ A curated list of **audio-visual multimodal large language models (MLLMs)**, **b
 | [**A Comprehensive Benchmark for Evaluating Multi-Talker Audio-Visual Dialogue Generation**](https://arxiv.org/abs/2602.00607) | MTAVG-Bench | Zhou, Y.H., Li, H., Lin, R., Huang, H., Zhou, J., Yuan, C., Lan, T., Zhou, Z., Li, Y., Xu, J. and Liao, J. | arXiv 2026 | Video + Audio | - | - | `finegrained perception` <br> `speech` |
 
 
-## Foundational Models
+## Models
 
-> Focus on foundational models that support (or are designed for) **audio + visual + language** understanding / generation.
+> Focus on models that support (or are designed for) **audio + visual + language** understanding / generation.
 
 ### Open-source
 
