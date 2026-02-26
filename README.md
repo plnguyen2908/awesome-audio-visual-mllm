@@ -1,4 +1,4 @@
-# Awesome AudioVisual QA [![Awesome](https://awesome.re/badge.svg)](https://github.com/plnguyen2908/awesome-audio-visual-mllm)
+# Awesome AudioVisual MLLM [![Awesome](https://awesome.re/badge.svg)](https://github.com/plnguyen2908/awesome-audio-visual-mllm)
 
 A curated list of **audio-visual multimodal large language models (MLLMs)**, **benchmarks**, and **resources** for **video + audio + language** understanding and reasoning.
 
@@ -50,6 +50,8 @@ A curated list of **audio-visual multimodal large language models (MLLMs)**, **b
 | [**PACS: A Dataset for Physical Audiovisual CommonSense Reasoning**](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970286.pdf) | PACS | Yu, S.; Wu, P.; Liang, P. P.; Salakhutdinov, R.; Morency, L. P. | ECCV 2022 | Video + Audio | [Code](https://github.com/samuelyu2002/PACS) | [Data](https://drive.google.com/drive/folders/1TjOKBTU9dsytHJIb919V4wXFR1Zm5TsJ) |
 | [**Learning To Answer Questions in Dynamic Audio-Visual Scenarios**](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Learning_To_Answer_Questions_in_Dynamic_Audio-Visual_Scenarios_CVPR_2022_paper.pdf) | MUSIC-AVQA |Li, G.; Wei, Y.; Tian, Y.; Xu, C.; Wen, J. R.; Hu, D. | CVPR 2022 | Video + Audio | [Code](https://github.com/GeWu-Lab/MUSIC-AVQA) | [Data](https://drive.google.com/drive/folders/1WAryZZE0srLIZG8VHl22uZ3tpbGHtsrQ) |
 | [**AVQA: A Dataset for Audio-Visual Question Answering on Videos**](https://dl.acm.org/doi/10.1145/3503161.3548291) | AVQA | Yang, P.; Wang, X.; Duan, X.; Chen, H.; Hou, R.; Jin, C.; Zhu, W. | ACM MM 2022 | Video + Audio | [Code](https://github.com/GeWu-Lab/MUSIC-AVQA) | [Data](https://drive.google.com/drive/folders/1WAryZZE0srLIZG8VHl22uZ3tpbGHtsrQ) |
+| [**Audio Visual Scene-Aware Dialog (AVSD)**](https://arxiv.org/abs/1806.00525) | AVSD | Alamri, Huda, Vincent Cartillier, Abhishek Das, Jue Wang, Anoop Cherian, Irfan Essa, Dhruv Batra et al. | CVPR 2019 | Video + Audio | - | [Data](https://drive.google.com/drive/folders/1SlZTySJAk_2tiMG5F8ivxCfOl_OWwd_Q) |
+| [**Vggsound: A Large-Scale Audio-Visual Dataset**](https://ieeexplore.ieee.org/abstract/document/9053174?casa_token=LBHDwOeaVnsAAAAA:ADjjzZPgIWZvZcwRe6N3vhvB7OAi3BTfzIZMR1wLpRoYtKAD940_78HIRF4MTdV5-xHJC90ZRA) | Vggsound | Chen, Honglie, Weidi Xie, Andrea Vedaldi, and Andrew Zisserman. | ICASSP 2020 | Video + Audio | - | [Data](http://www.robots.ox.ac.uk/~vgg/data/vggsound/) |
 
 ---
 
@@ -74,7 +76,6 @@ A curated list of **audio-visual multimodal large language models (MLLMs)**, **b
 | [**The Curse of Multi-Modalities: Evaluating Hallucinations of Large Multimodal Models across Language, Visual, and Audio**](https://arxiv.org/abs/2410.12787) | CMM | Leng, S.; Xing, Y.; Cheng, Z.; Zhou, Y.; Zhang, H.; Li, X.; Zhao, D.; Lu, S.; Miao, C.; Bing, L. | arXiv 2024 | Language + Visual + Audio | [Code](https://github.com/DAMO-NLP-SG/CMM) | [Data](https://huggingface.co/datasets/DAMO-NLP-SG/CMM) | `hallucination` <br> `coarse perception` <br> `general-sound` |
 | [**AVHBench: A Cross-Modal Hallucination Benchmark for Audio-Visual Large Language Models**](https://arxiv.org/abs/2410.18325) | AVHBench | Kim, S.-B.; Oh, H.-B.; Lee, J.; Senocak, A.; Chung, J. S.; Oh, T.-H. | ICLR 2025 | Video + Audio | [Code](https://github.com/kaist-ami/AVHBench) | [Data](https://github.com/kaist-ami/AVHBench#download-the-avhbench-dataset) | `hallucination` `coarse perception` `general-sound` |
 | [**Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-Modal LLMs in Video Analysis**](https://arxiv.org/pdf/2405.21075) | Video-MME | Fu, C.; Dai, Y.; Luo, Y.; Li, L.; Ren, S.; Zhang, R.; Wang, Z.; Zhou, C.; Shen, Y.; Zhang, M.; Chen, P. | CVPR 2025 | Video + Audio/Subtitle | [Code](https://github.com/MME-Benchmarks/Video-MME) | [Data](https://huggingface.co/datasets/lmms-lab/Video-MME/tree/main) | `finegrained perception` `general-sound` |
-
 | [**VGGSounder: Audio-Visual Evaluations for Foundation Models**](https://arxiv.org/abs/2508.08237) | VGGSounder | Zverev, D.; Wiedemer, T.; Prabhu, A.; Bethge, M.; Brendel, W.; Koepke, A. S. | ICCV 2025 | Video + Audio | [Code](https://github.com/Bizilizi/VGGSounder) | [Data](https://github.com/Bizilizi/VGGSounder) | `coarse perception` `general-sound`  |
 | [**AVTrustBench: Assessing and Enhancing Reliability and Robustness in Audio-Visual LLMs**](https://arxiv.org/abs/2501.02135) | AVTrustBench | Chowdhury, S.; Nag, S.; Dasgupta, S.; Wang, Y.; Elhoseiny, M.; Gao, R.; Manocha, D. | ICCV 2025 | Video + Audio | [Code](https://github.com/schowdhury671/avtrustbench-) | [Data](https://github.com/schowdhury671/avtrustbench-/blob/main/data.md) | `hallucination` `coarse perception` `finegrained perception` `general-sound` |
 | [**OmniBench: Towards The Future of Universal Omni-Language Models**](https://arxiv.org/abs/2409.15272) | OmniBench | Li, Y., Ma, Y., Zhang, G., Yuan, R., Zhu, K., Guo, H., Liang, Y., Liu, J., Wang, Z., Yang, J. and Wu, S. | NeurIPS 2025 (Datasets & Benchmarks) | Image + Audio | [Code](https://github.com/multimodal-art-projection/OmniBench) | [Data](https://huggingface.co/datasets/m-a-p/OmniBench) | `coarse perception` `general-sound` |
@@ -96,13 +97,23 @@ A curated list of **audio-visual multimodal large language models (MLLMs)**, **b
 
 ### Open-source
 
-| Model | Org / Team | Year | Audio In | Video/Image In | Text Out | Speech Out | Code | Model | Notes |
+| Model | Org / Team | Year | Audio In | Video/Image In | Text Out | Speech Out | Code | Model | Evaluated on (AVQA benchmarks) |
 |---|---|---:|:---:|:---:|:---:|:---:|---|---|---|
-| Video-LLaMA | DAMO / contributors | 2023 | ✅ | ✅ | ✅ | ⚠️ | `TBD` | `TBD` | Early AV instruction-following video LLM |
-| VideoLLaMA 2 | DAMO / contributors | 2024 | ✅ | ✅ | ✅ | ❌ | `TBD` | `TBD` | Stronger video/audio understanding |
-| Qwen2.5-Omni | Qwen | 2025 | ✅ | ✅ | ✅ | ✅ | `TBD` | `TBD` | Omni multimodal model |
-| MiniCPM-o | OpenBMB | 2025 | ✅ | ✅ | ✅ | ✅ | `TBD` | `TBD` | Real-time / on-device oriented omni interaction |
-| VITA / VITA-1.5 | VITA team | 2024–2025 | ✅ | ✅ | ✅ | ✅ | `TBD` | `TBD` | Real-time vision-speech interaction |
+| PandaGPT | PandaGPT authors (ImageBind + Vicuna) | 2023 | ✅ | ✅ (Image+Video) | ✅ | ❌ | https://panda-gpt.github.io/  | *(project page / paper)*  | AVSD, AVSSD, MUSIC-AVQA |
+| VideoLLaMA2 | DAMO-NLP-SG (Alibaba) | 2024 | ✅ | ✅ (Video) | ✅ | ❌ | https://github.com/DAMO-NLP-SG/VideoLLaMA2  | https://huggingface.co/papers/2406.07476 | AVQA, AVSD, VGGSound, Music-AVQA  |
+| VITA | VITA-MLLM | 2024 | ✅ | ✅ (Image+Video) | ✅ | ✅ | https://github.com/VITA-MLLM/VITA | https://huggingface.co/VITA-MLLM  | Video-MME |
+| Unified-IO 2 (UIO2) | Allen Institute for AI (AI2) | 2024 | ✅ | ✅ (Image+Video) | ✅ | ✅ | https://unified-io-2.allenai.org/  | *(model releases vary; use project page above)*  | Vggsound  |
+| OneLLM | Shanghai AI Lab / collaborators | 2024 | ✅ | ✅ (Video) | ✅ | ❌ | https://github.com/csuhan/OneLLM | *(see repo / paper)*  | MUSIC-AVQA, AVSD |
+| video-SALMONN | Tsinghua + ByteDance | 2024 | ✅ | ✅ (Video) | ✅ | ❌ | https://github.com/bytedance/SALMONN/ | https://arxiv.org/abs/2406.15704 | AVQA, MUSIC-AVQA, AVSD |
+| AnyGPT | OpenMOSS / AnyGPT authors | 2024 | ✅ *(speech/music)* | ✅ (Images) | ✅ | ✅ *(any-to-any, incl. speech)* | https://github.com/OpenMOSS/AnyGPT  | https://huggingface.co/papers/2402.12226  | N/A |
+| VITA-1.5 | VITA-MLLM | 2025 | ✅ | ✅ (Image+Video) | ✅ | ✅ | https://github.com/VITA-MLLM/VITA | https://huggingface.co/VITA-MLLM/VITA-1.5  | Video-MME |
+|OmniVinci|NVIDIA| 2025|✅ | ✅ (Image+Video) | ✅ | ✅|https://github.com/NVlabs/OmniVinci|https://huggingface.co/nvidia/omnivinci| DailyOmni, Worldsense, Video-MME|
+| video-SALMONN 2 | Tsinghua + ByteDance | 2025 | ✅ | ✅ (Video) | ✅ | ❌ | https://github.com/bytedance/video-SALMONN-2 | https://huggingface.co/tsinghua-ee/video-SALMONN-2 | Video-MME, AVUT, Worldsense, DailyOmni |
+| Qwen2.5-Omni | Qwen (Alibaba Cloud) | 2025 | ✅ | ✅ (Image+Video) | ✅ | ✅ | https://github.com/QwenLM/Qwen2.5-Omni  | https://huggingface.co/Qwen/Qwen2.5-Omni-7B  | OmniBench, Video-MME|
+| Qwen3-Omni | Qwen (Alibaba Cloud) | 2025 | ✅ | ✅ (Image+Video) | ✅ | ✅ | https://github.com/QwenLM/Qwen3-Omni | https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Thinking  | Worldsense, Daily-Omni, Video-MME |
+| Phi-4 Multimodal Instruct | Microsoft | 2025 | ✅ | ✅ (Image + Video) | ✅ | ❌ | https://huggingface.co/microsoft/Phi-4-multimodal-instruct | https://huggingface.co/microsoft/Phi-4-multimodal-instruct  | Video-MME |
+| D-ORCA | Tsinghua + Tencent | 2026 | ✅ | ✅ (Video) | ✅ | ❌ | https://github.com/WeChatCV/D-ORCA/ | https://huggingface.co/tsinghua-ee/D-ORCA-8B-0210 | Video-MME, Worldsense, AVUT, DailyOmni, AV-SpeakerBench |
+
 
 > **Legend:** ✅ supported · ❌ not supported · ⚠️ partial / version-dependent
 
