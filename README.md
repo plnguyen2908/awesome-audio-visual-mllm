@@ -113,9 +113,9 @@ A curated list of **audio-visual multimodal large language models (MLLMs)**, **b
 | AnyGPT | OpenMOSS / AnyGPT authors | 2024 | ✅ *(speech/music)* | ✅ (Images) | ✅ | ✅ *(any-to-any, incl. speech)* | N/A |
 | VITA-1.5 | VITA-MLLM | 2025 | ✅ | ✅ (Image+Video) | ✅ | ✅ | Video-MME |
 | Phi-4 Multimodal Instruct | Microsoft | 2025 | ✅ | ✅ (Image + Video) | ✅ | ❌ | Video-MME |
+| Qwen2.5-Omni | Qwen (Alibaba Cloud) | 2025 | ✅ | ✅ (Image+Video) | ✅ | ✅ | OmniBench, Video-MME |
 | OmniVinci | NVIDIA | 2025 | ✅ | ✅ (Image+Video) | ✅ | ✅ | DailyOmni, WorldSense, Video-MME |
 | video-SALMONN 2 | Tsinghua + ByteDance | 2025 | ✅ | ✅ (Video) | ✅ | ❌ | Video-MME, AVUT, WorldSense, DailyOmni |
-| Qwen2.5-Omni | Qwen (Alibaba Cloud) | 2025 | ✅ | ✅ (Image+Video) | ✅ | ✅ | OmniBench, Video-MME |
 | Qwen3-Omni | Qwen (Alibaba Cloud) | 2025 | ✅ | ✅ (Image+Video) | ✅ | ✅ | WorldSense, Daily-Omni, Video-MME |
 | D-ORCA | Tsinghua + Tencent | 2026 | ✅ | ✅ (Video) | ✅ | ❌ | Video-MME, WorldSense, AVUT, DailyOmni, AV-SpeakerBench |
 
