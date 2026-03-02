@@ -6,6 +6,7 @@ A curated list of **audio-visual multimodal large language models (MLLMs)**, **b
 
 > It also includes modern **MLLM evaluation benchmarks** for video analysis (especially those using audio): typically QA problems in audiovisual setting. Benchmarks that include subtitle without audio are excluded from the list. 
 
+The list is currently maintain by [Le Thien Phuc Nguyen](https://plnguyen2908.github.io/)
 ---
 
 ## Table of Contents
