@@ -120,6 +120,7 @@ The list is currently maintain by [Le Thien Phuc Nguyen](https://plnguyen2908.gi
 | video-SALMONN 2 | Tsinghua + ByteDance | 2025 | ✅ | ✅ (Video) | ✅ | ❌ | Video-MME, AVUT, WorldSense, DailyOmni |
 | Qwen3-Omni | Qwen (Alibaba Cloud) | 2025 | ✅ | ✅ (Image+Video) | ✅ | ✅ | WorldSense, Daily-Omni, Video-MME |
 | D-ORCA | Tsinghua + Tencent | 2026 | ✅ | ✅ (Video) | ✅ | ❌ | Video-MME, WorldSense, AVUT, DailyOmni, AV-SpeakerBench |
+| [PadCaptioner](https://arxiv.org/abs/2607.02963v1) | NUS | 2026 | ✅ | ✅ (Video) | ✅ | ❌ | ChronusAV, LongVALE, YouCook2 |
 
 
 > **Legend:** ✅ supported · ❌ not supported · ⚠️ partial / version-dependent
